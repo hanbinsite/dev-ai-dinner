@@ -11,6 +11,8 @@
 - Pinia - Vue 的状态管理库
 - Vant UI - 轻量、可靠的移动端组件库
 - SCSS - CSS 预处理器
+- Docker - 容器化部署
+- Nginx - Web 服务器
 
 ## 功能特性
 
@@ -60,8 +62,12 @@ src/
 
 - Node.js >= 16.0.0
 - npm >= 7.0.0
+- Docker >= 20.10.0
+- Docker Compose >= 2.0.0
 
 ## 安装和运行
+
+### 本地开发
 
 1. 克隆项目
 ```bash
@@ -83,6 +89,35 @@ npm run dev
 npm run build
 ```
 
+### Docker 部署
+
+1. 构建 Docker 镜像
+```bash
+docker build -t dining-app .
+```
+
+2. 运行容器
+```bash
+docker run -d -p 80:80 dining-app
+```
+
+3. 使用 Docker Compose（可选）
+```bash
+docker-compose up -d
+```
+
+### Docker 相关文件说明
+
+- `Dockerfile`: 定义构建和运行环境
+  - 使用多阶段构建
+  - 构建阶段：Node.js 环境
+  - 生产阶段：Nginx 环境
+
+- `nginx.conf`: Nginx 配置文件
+  - 处理 Vue 路由的 history 模式
+  - 配置静态资源缓存
+  - 安全限制配置
+
 ## 项目特点
 
 - 采用 Vue 3 组合式 API，代码更简洁
@@ -90,6 +125,7 @@ npm run build
 - 响应式设计，适配移动端
 - 模块化的数据管理
 - 优雅的 UI 交互设计
+- 支持 Docker 容器化部署
 
 ## 贡献指南
 
