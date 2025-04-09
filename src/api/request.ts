@@ -1,63 +1,59 @@
-import axios, { AxiosInstance, AxiosRequestConfig, AxiosResponse } from 'axios';
+import axios, { AxiosInstance, AxiosRequestConfig, AxiosResponse } from 'axios'
 
-type RequestConfig = AxiosRequestConfig & {
-  showLoading?: boolean;
-  showError?: boolean;
-};
-
-export class Request {
-  private instance: AxiosInstance;
-  private baseConfig: RequestConfig = {
-    baseURL: import.meta.env.VITE_API_BASE_URL || '',
-    timeout: 10000,
-    showLoading: true,
-    showError: true
-  };
-
-  constructor(config?: RequestConfig) {
-    this.instance = axios.create(Object.assign(this.baseConfig, config));
-    this.setupInterceptors();
+// 创建 axios 实例
+const instance: AxiosInstance = axios.create({
+  baseURL: '/api',
+  timeout: 10000,
+  headers: {
+    'Content-Type': 'application/json'
   }
+})
 
-  private setupInterceptors() {
-    // 请求拦截
-    this.instance.interceptors.request.use(
-      (config) => {
-        // 添加token
-        const token = localStorage.getItem('token');
-        if (token) {
-          config.headers.Authorization = `Bearer ${token}`;
-        }
-        return config;
-      },
-      (error) => {
-        return Promise.reject(error);
+// 请求拦截器
+instance.interceptors.request.use(
+  (config: AxiosRequestConfig) => {
+    const token = localStorage.getItem('token')
+    if (token) {
+      config.headers = {
+        ...config.headers,
+        Authorization: `Bearer ${token}`
       }
-    );
-
-    // 响应拦截
-    this.instance.interceptors.response.use(
-      (response: AxiosResponse) => {
-        const { data } = response;
-        // 根据后端接口规范处理
-        if (data.code !== 200) {
-          // 可以在这里统一处理错误
-          return Promise.reject(data);
-        }
-        return data;
-      },
-      (error) => {
-        // 处理401未授权
-        if (error.response?.status === 401) {
-          alert('请先登录');
-          // 这里可以添加跳转到登录页的逻辑
-        }
-        return Promise.reject(error);
-      }
-    );
+    }
+    return config
+  },
+  (error: any) => {
+    return Promise.reject(error)
   }
+)
 
+// 响应拦截器
+instance.interceptors.response.use(
+  (response: AxiosResponse) => {
+    const { data } = response
+    if (data.code === 0) {
+      return data.data
+    }
+    return Promise.reject(new Error(data.message || '请求失败'))
+  },
+  (error: any) => {
+    return Promise.reject(error)
+  }
+)
 
+// 定义请求方法
+const request = {
+  get<T = any>(url: string, config?: AxiosRequestConfig): Promise<T> {
+    return instance.get(url, config)
+  },
+  post<T = any>(url: string, data?: any, config?: AxiosRequestConfig): Promise<T> {
+    return instance.post(url, data, config)
+  },
+  put<T = any>(url: string, data?: any, config?: AxiosRequestConfig): Promise<T> {
+    return instance.put(url, data, config)
+  },
+  delete<T = any>(url: string, config?: AxiosRequestConfig): Promise<T> {
+    return instance.delete(url, config)
+  }
 }
 
-export default new Request();
+export default request
