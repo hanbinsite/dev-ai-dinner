@@ -1,0 +1,29 @@
+/* 移动端样式优化 */
+:root {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  :root {
+    font-size: 14px;
+  }
+  
+  /* 优化按钮触控区域 */
+  .el-button {
+    padding: 0.75rem 1.25rem;
+    min-width: 44px;
+    min-height: 44px;
+  }
+  
+  /* 调整Element Plus组件间距 */
+  .el-form-item {
+    margin-bottom: 1rem;
+  }
+  
+  /* 优化菜单项 */
+  .el-menu-item {
+    padding: 0 1rem;
+    height: 3rem;
+    line-height: 3rem;
+  }
+}

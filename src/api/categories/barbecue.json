@@ -1,0 +1,188 @@
+{
+  "id": "barbecue",
+  "name": "特色烧烤",
+  "items": [
+    {
+      "id": "bb-001",
+      "name": "麻辣烤鱼",
+      "desc": "鱼肉鲜嫩，麻辣入味",
+      "basePrice": 88,
+      "image": "https://example.com/barbecue1.jpg",
+      "isHot": true,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "微辣", "price": 0 },
+            { "name": "中辣", "price": 0 },
+            { "name": "特辣", "price": 0 }
+          ]
+        },
+        {
+          "name": "配菜",
+          "options": [
+            { "name": "无配菜", "price": 0 },
+            { "name": "标准配菜", "price": 15 },
+            { "name": "豪华配菜", "price": 25 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bb-002",
+      "name": "烤脑花",
+      "desc": "口感细腻，麻辣鲜香",
+      "basePrice": 28,
+      "image": "https://example.com/barbecue2.jpg",
+      "isHot": true,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "微辣", "price": 0 },
+            { "name": "中辣", "price": 0 },
+            { "name": "特辣", "price": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bb-003",
+      "name": "烤五花肉",
+      "desc": "肥瘦相间，外焦里嫩",
+      "basePrice": 35,
+      "image": "https://example.com/barbecue3.jpg",
+      "isHot": false,
+      "specs": [
+        {
+          "name": "份量",
+          "options": [
+            { "name": "小份(5串)", "price": 0 },
+            { "name": "大份(10串)", "price": 15 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bb-004",
+      "name": "烤羊肉串",
+      "desc": "肉质鲜嫩，孜然香浓",
+      "basePrice": 38,
+      "image": "https://example.com/barbecue4.jpg",
+      "isHot": false,
+      "specs": [
+        {
+          "name": "份量",
+          "options": [
+            { "name": "小份(5串)", "price": 0 },
+            { "name": "大份(10串)", "price": 15 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bb-005",
+      "name": "烤鸡翅",
+      "desc": "外焦里嫩，香辣可口",
+      "basePrice": 32,
+      "image": "https://example.com/barbecue5.jpg",
+      "isHot": true,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "微辣", "price": 0 },
+            { "name": "中辣", "price": 0 },
+            { "name": "特辣", "price": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bb-006",
+      "name": "烤茄子",
+      "desc": "茄子软糯，蒜香浓郁",
+      "basePrice": 18,
+      "image": "https://example.com/barbecue6.jpg",
+      "isHot": false,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "不辣", "price": 0 },
+            { "name": "微辣", "price": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bb-007",
+      "name": "烤韭菜",
+      "desc": "韭菜鲜嫩，蒜香浓郁",
+      "basePrice": 15,
+      "image": "https://example.com/barbecue7.jpg",
+      "isHot": false,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "不辣", "price": 0 },
+            { "name": "微辣", "price": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bb-008",
+      "name": "烤金针菇",
+      "desc": "金针菇爽脆，蒜香浓郁",
+      "basePrice": 16,
+      "image": "https://example.com/barbecue8.jpg",
+      "isHot": false,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "不辣", "price": 0 },
+            { "name": "微辣", "price": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bb-009",
+      "name": "烤豆腐",
+      "desc": "豆腐外焦里嫩，香辣可口",
+      "basePrice": 12,
+      "image": "https://example.com/barbecue9.jpg",
+      "isHot": true,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "微辣", "price": 0 },
+            { "name": "中辣", "price": 0 },
+            { "name": "特辣", "price": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bb-010",
+      "name": "烤土豆片",
+      "desc": "土豆片香脆，孜然香浓",
+      "basePrice": 12,
+      "image": "https://example.com/barbecue10.jpg",
+      "isHot": false,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "不辣", "price": 0 },
+            { "name": "微辣", "price": 0 }
+          ]
+        }
+      ]
+    }
+  ]
+} 

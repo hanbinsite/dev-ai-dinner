@@ -1,0 +1,60 @@
+{
+  "id": "vegetable",
+  "name": "时令素菜",
+  "items": [
+    {
+      "id": "vg-001",
+      "name": "干煸四季豆",
+      "desc": "四季豆干煸，麻辣鲜香",
+      "basePrice": 22,
+      "image": "https://example.com/vegetable1.jpg",
+      "isHot": true,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "微辣", "price": 0 },
+            { "name": "中辣", "price": 0 },
+            { "name": "特辣", "price": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vg-002",
+      "name": "麻婆豆腐",
+      "desc": "豆腐嫩滑，麻辣鲜香",
+      "basePrice": 18,
+      "image": "https://example.com/vegetable2.jpg",
+      "isHot": true,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "微辣", "price": 0 },
+            { "name": "中辣", "price": 0 },
+            { "name": "特辣", "price": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vg-003",
+      "name": "清炒时蔬",
+      "desc": "时令蔬菜，清爽可口",
+      "basePrice": 16,
+      "image": "https://example.com/vegetable3.jpg",
+      "isHot": false,
+      "specs": [
+        {
+          "name": "时令蔬菜",
+          "options": [
+            { "name": "空心菜", "price": 0 },
+            { "name": "油麦菜", "price": 0 },
+            { "name": "生菜", "price": 0 }
+          ]
+        }
+      ]
+    }
+  ]
+} 

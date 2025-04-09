@@ -1,0 +1,58 @@
+{
+  "id": "rice",
+  "name": "特色盖饭",
+  "items": [
+    {
+      "id": "rc-001",
+      "name": "回锅肉盖饭",
+      "desc": "回锅肉配米饭，香辣可口",
+      "basePrice": 28,
+      "image": "https://example.com/rice1.jpg",
+      "isHot": true,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "微辣", "price": 0 },
+            { "name": "中辣", "price": 0 },
+            { "name": "特辣", "price": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rc-002",
+      "name": "宫保鸡丁盖饭",
+      "desc": "酸甜微辣，鸡肉鲜嫩",
+      "basePrice": 26,
+      "image": "https://example.com/rice2.jpg",
+      "isHot": false,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "不辣", "price": 0 },
+            { "name": "微辣", "price": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rc-003",
+      "name": "鱼香肉丝盖饭",
+      "desc": "酸甜微辣，肉丝嫩滑",
+      "basePrice": 24,
+      "image": "https://example.com/rice3.jpg",
+      "isHot": false,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "不辣", "price": 0 },
+            { "name": "微辣", "price": 0 }
+          ]
+        }
+      ]
+    }
+  ]
+} 

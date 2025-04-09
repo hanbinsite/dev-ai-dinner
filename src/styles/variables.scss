@@ -1,0 +1,17 @@
+// 美团主题色
+// 科技蓝主题色
+$primary-color: #3a7afe;      // 主科技蓝
+$secondary-color: #f0f6ff;    // 浅科技蓝背景
+$price-color: #ff5f16;
+$bg-color: #ffffff;
+
+// 混合宏
+@mixin card-shadow {
+  box-shadow: 0 4px 16px rgba(58, 122, 254, 0.12);
+}
+
+@mixin text-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

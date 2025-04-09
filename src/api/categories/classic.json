@@ -1,0 +1,183 @@
+{
+  "id": "classic",
+  "name": "经典川菜",
+  "items": [
+    {
+      "id": "cl-001",
+      "name": "麻婆豆腐",
+      "desc": "传统川菜，麻辣鲜香",
+      "basePrice": 28,
+      "image": "https://example.com/classic1.jpg",
+      "isHot": true,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "微辣", "price": 0 },
+            { "name": "中辣", "price": 0 },
+            { "name": "特辣", "price": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cl-002",
+      "name": "回锅肉",
+      "desc": "肥而不腻，香辣可口",
+      "basePrice": 38,
+      "image": "https://example.com/classic2.jpg",
+      "isHot": true,
+      "specs": [
+        {
+          "name": "份量",
+          "options": [
+            { "name": "小份", "price": 0 },
+            { "name": "大份", "price": 10 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cl-003",
+      "name": "宫保鸡丁",
+      "desc": "酸甜微辣，鸡肉鲜嫩",
+      "basePrice": 32,
+      "image": "https://example.com/classic3.jpg",
+      "isHot": false,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "不辣", "price": 0 },
+            { "name": "微辣", "price": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cl-004",
+      "name": "水煮肉片",
+      "desc": "肉片嫩滑，麻辣鲜香",
+      "basePrice": 42,
+      "image": "https://example.com/classic4.jpg",
+      "isHot": true,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "微辣", "price": 0 },
+            { "name": "中辣", "price": 0 },
+            { "name": "特辣", "price": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cl-005",
+      "name": "鱼香肉丝",
+      "desc": "酸甜微辣，肉丝嫩滑",
+      "basePrice": 36,
+      "image": "https://example.com/classic5.jpg",
+      "isHot": false,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "不辣", "price": 0 },
+            { "name": "微辣", "price": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cl-006",
+      "name": "夫妻肺片",
+      "desc": "麻辣鲜香，口感丰富",
+      "basePrice": 45,
+      "image": "https://example.com/classic6.jpg",
+      "isHot": true,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "微辣", "price": 0 },
+            { "name": "中辣", "price": 0 },
+            { "name": "特辣", "price": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cl-007",
+      "name": "干煸四季豆",
+      "desc": "四季豆干煸，麻辣鲜香",
+      "basePrice": 28,
+      "image": "https://example.com/classic7.jpg",
+      "isHot": true,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "微辣", "price": 0 },
+            { "name": "中辣", "price": 0 },
+            { "name": "特辣", "price": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cl-008",
+      "name": "蚂蚁上树",
+      "desc": "粉丝爽滑，肉末香浓",
+      "basePrice": 26,
+      "image": "https://example.com/classic8.jpg",
+      "isHot": true,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "微辣", "price": 0 },
+            { "name": "中辣", "price": 0 },
+            { "name": "特辣", "price": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cl-009",
+      "name": "辣子鸡",
+      "desc": "鸡肉酥脆，麻辣鲜香",
+      "basePrice": 48,
+      "image": "https://example.com/classic9.jpg",
+      "isHot": true,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "微辣", "price": 0 },
+            { "name": "中辣", "price": 0 },
+            { "name": "特辣", "price": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cl-010",
+      "name": "毛血旺",
+      "desc": "麻辣鲜香，配料丰富",
+      "basePrice": 58,
+      "image": "https://example.com/classic10.jpg",
+      "isHot": true,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "微辣", "price": 0 },
+            { "name": "中辣", "price": 0 },
+            { "name": "特辣", "price": 0 }
+          ]
+        }
+      ]
+    }
+  ]
+} 

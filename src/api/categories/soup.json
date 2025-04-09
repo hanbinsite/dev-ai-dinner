@@ -1,0 +1,193 @@
+{
+  "id": "soup",
+  "name": "川味汤品",
+  "items": [
+    {
+      "id": "sp-001",
+      "name": "酸菜鱼",
+      "desc": "鱼肉鲜嫩，酸菜开胃",
+      "basePrice": 68,
+      "image": "https://example.com/soup1.jpg",
+      "isHot": true,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "微辣", "price": 0 },
+            { "name": "中辣", "price": 0 },
+            { "name": "特辣", "price": 0 }
+          ]
+        },
+        {
+          "name": "份量",
+          "options": [
+            { "name": "小份", "price": 0 },
+            { "name": "大份", "price": 20 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp-002",
+      "name": "毛血旺",
+      "desc": "麻辣鲜香，配料丰富",
+      "basePrice": 58,
+      "image": "https://example.com/soup2.jpg",
+      "isHot": true,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "微辣", "price": 0 },
+            { "name": "中辣", "price": 0 },
+            { "name": "特辣", "price": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp-003",
+      "name": "水煮肉片",
+      "desc": "肉片嫩滑，麻辣鲜香",
+      "basePrice": 42,
+      "image": "https://example.com/soup3.jpg",
+      "isHot": true,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "微辣", "price": 0 },
+            { "name": "中辣", "price": 0 },
+            { "name": "特辣", "price": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp-004",
+      "name": "水煮牛肉",
+      "desc": "牛肉嫩滑，麻辣鲜香",
+      "basePrice": 48,
+      "image": "https://example.com/soup4.jpg",
+      "isHot": true,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "微辣", "price": 0 },
+            { "name": "中辣", "price": 0 },
+            { "name": "特辣", "price": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp-005",
+      "name": "水煮鱼片",
+      "desc": "鱼片嫩滑，麻辣鲜香",
+      "basePrice": 52,
+      "image": "https://example.com/soup5.jpg",
+      "isHot": true,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "微辣", "price": 0 },
+            { "name": "中辣", "price": 0 },
+            { "name": "特辣", "price": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp-006",
+      "name": "酸辣汤",
+      "desc": "酸辣开胃，配料丰富",
+      "basePrice": 28,
+      "image": "https://example.com/soup6.jpg",
+      "isHot": true,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "微辣", "price": 0 },
+            { "name": "中辣", "price": 0 },
+            { "name": "特辣", "price": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp-007",
+      "name": "麻辣烫",
+      "desc": "配料丰富，麻辣鲜香",
+      "basePrice": 35,
+      "image": "https://example.com/soup7.jpg",
+      "isHot": true,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "微辣", "price": 0 },
+            { "name": "中辣", "price": 0 },
+            { "name": "特辣", "price": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp-008",
+      "name": "酸汤肥牛",
+      "desc": "肥牛鲜嫩，酸汤开胃",
+      "basePrice": 45,
+      "image": "https://example.com/soup8.jpg",
+      "isHot": true,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "微辣", "price": 0 },
+            { "name": "中辣", "price": 0 },
+            { "name": "特辣", "price": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp-009",
+      "name": "酸汤鱼片",
+      "desc": "鱼片嫩滑，酸汤开胃",
+      "basePrice": 48,
+      "image": "https://example.com/soup9.jpg",
+      "isHot": true,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "微辣", "price": 0 },
+            { "name": "中辣", "price": 0 },
+            { "name": "特辣", "price": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp-010",
+      "name": "麻辣香锅",
+      "desc": "配料丰富，麻辣鲜香",
+      "basePrice": 58,
+      "image": "https://example.com/soup10.jpg",
+      "isHot": true,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "微辣", "price": 0 },
+            { "name": "中辣", "price": 0 },
+            { "name": "特辣", "price": 0 }
+          ]
+        }
+      ]
+    }
+  ]
+} 

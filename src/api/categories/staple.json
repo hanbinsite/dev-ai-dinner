@@ -1,0 +1,185 @@
+{
+  "id": "staple",
+  "name": "川味主食",
+  "items": [
+    {
+      "id": "st-001",
+      "name": "担担面",
+      "desc": "麻辣鲜香，面条劲道",
+      "basePrice": 18,
+      "image": "https://example.com/staple1.jpg",
+      "isHot": true,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "微辣", "price": 0 },
+            { "name": "中辣", "price": 0 },
+            { "name": "特辣", "price": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "st-002",
+      "name": "红油抄手",
+      "desc": "皮薄馅多，红油香浓",
+      "basePrice": 22,
+      "image": "https://example.com/staple2.jpg",
+      "isHot": true,
+      "specs": [
+        {
+          "name": "份量",
+          "options": [
+            { "name": "小份(8个)", "price": 0 },
+            { "name": "大份(12个)", "price": 8 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "st-003",
+      "name": "酸辣粉",
+      "desc": "酸辣开胃，粉条爽滑",
+      "basePrice": 16,
+      "image": "https://example.com/staple3.jpg",
+      "isHot": true,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "微辣", "price": 0 },
+            { "name": "中辣", "price": 0 },
+            { "name": "特辣", "price": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "st-004",
+      "name": "重庆小面",
+      "desc": "面条劲道，麻辣鲜香",
+      "basePrice": 15,
+      "image": "https://example.com/staple4.jpg",
+      "isHot": true,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "微辣", "price": 0 },
+            { "name": "中辣", "price": 0 },
+            { "name": "特辣", "price": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "st-005",
+      "name": "麻辣拌面",
+      "desc": "面条劲道，麻辣鲜香",
+      "basePrice": 18,
+      "image": "https://example.com/staple5.jpg",
+      "isHot": true,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "微辣", "price": 0 },
+            { "name": "中辣", "price": 0 },
+            { "name": "特辣", "price": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "st-006",
+      "name": "川味炒饭",
+      "desc": "米饭粒粒分明，麻辣鲜香",
+      "basePrice": 22,
+      "image": "https://example.com/staple6.jpg",
+      "isHot": true,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "微辣", "price": 0 },
+            { "name": "中辣", "price": 0 },
+            { "name": "特辣", "price": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "st-007",
+      "name": "麻辣米线",
+      "desc": "米线爽滑，麻辣鲜香",
+      "basePrice": 16,
+      "image": "https://example.com/staple7.jpg",
+      "isHot": true,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "微辣", "price": 0 },
+            { "name": "中辣", "price": 0 },
+            { "name": "特辣", "price": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "st-008",
+      "name": "川味炒面",
+      "desc": "面条劲道，麻辣鲜香",
+      "basePrice": 20,
+      "image": "https://example.com/staple8.jpg",
+      "isHot": true,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "微辣", "price": 0 },
+            { "name": "中辣", "price": 0 },
+            { "name": "特辣", "price": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "st-009",
+      "name": "麻辣拌粉",
+      "desc": "粉条爽滑，麻辣鲜香",
+      "basePrice": 18,
+      "image": "https://example.com/staple9.jpg",
+      "isHot": true,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "微辣", "price": 0 },
+            { "name": "中辣", "price": 0 },
+            { "name": "特辣", "price": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "st-010",
+      "name": "川味炒河粉",
+      "desc": "河粉劲道，麻辣鲜香",
+      "basePrice": 22,
+      "image": "https://example.com/staple10.jpg",
+      "isHot": true,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "微辣", "price": 0 },
+            { "name": "中辣", "price": 0 },
+            { "name": "特辣", "price": 0 }
+          ]
+        }
+      ]
+    }
+  ]
+} 

@@ -1,0 +1,178 @@
+{
+  "id": "hot-pot",
+  "name": "川味火锅",
+  "items": [
+    {
+      "id": "hp-001",
+      "name": "麻辣牛油锅底",
+      "desc": "正宗川味麻辣锅底，牛油香浓",
+      "basePrice": 68,
+      "image": "https://example.com/hotpot1.jpg",
+      "isHot": true,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "微辣", "price": 0 },
+            { "name": "中辣", "price": 0 },
+            { "name": "特辣", "price": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hp-002",
+      "name": "鸳鸯锅底",
+      "desc": "麻辣+清汤，满足不同口味需求",
+      "basePrice": 78,
+      "image": "https://example.com/hotpot2.jpg",
+      "isHot": false,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "微辣", "price": 0 },
+            { "name": "中辣", "price": 0 },
+            { "name": "特辣", "price": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hp-003",
+      "name": "毛肚",
+      "desc": "新鲜毛肚，口感爽脆",
+      "basePrice": 38,
+      "image": "https://example.com/hotpot3.jpg",
+      "isHot": true,
+      "specs": [
+        {
+          "name": "份量",
+          "options": [
+            { "name": "小份", "price": 0 },
+            { "name": "大份", "price": 10 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hp-004",
+      "name": "黄喉",
+      "desc": "口感脆嫩，火锅必点",
+      "basePrice": 35,
+      "image": "https://example.com/hotpot4.jpg",
+      "isHot": true,
+      "specs": [
+        {
+          "name": "份量",
+          "options": [
+            { "name": "小份", "price": 0 },
+            { "name": "大份", "price": 10 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hp-005",
+      "name": "肥牛卷",
+      "desc": "精选肥牛，肉质鲜嫩",
+      "basePrice": 42,
+      "image": "https://example.com/hotpot5.jpg",
+      "isHot": false,
+      "specs": [
+        {
+          "name": "份量",
+          "options": [
+            { "name": "小份(200g)", "price": 0 },
+            { "name": "大份(400g)", "price": 15 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hp-006",
+      "name": "虾滑",
+      "desc": "新鲜虾肉制成，口感Q弹",
+      "basePrice": 45,
+      "image": "https://example.com/hotpot6.jpg",
+      "isHot": false,
+      "specs": [
+        {
+          "name": "份量",
+          "options": [
+            { "name": "小份(8个)", "price": 0 },
+            { "name": "大份(16个)", "price": 12 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hp-007",
+      "name": "鸭血",
+      "desc": "嫩滑爽口，营养丰富",
+      "basePrice": 22,
+      "image": "https://example.com/hotpot7.jpg",
+      "isHot": false,
+      "specs": [
+        {
+          "name": "份量",
+          "options": [
+            { "name": "小份", "price": 0 },
+            { "name": "大份", "price": 8 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hp-008",
+      "name": "牛百叶",
+      "desc": "口感爽脆，火锅经典",
+      "basePrice": 36,
+      "image": "https://example.com/hotpot8.jpg",
+      "isHot": true,
+      "specs": [
+        {
+          "name": "份量",
+          "options": [
+            { "name": "小份", "price": 0 },
+            { "name": "大份", "price": 10 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hp-009",
+      "name": "午餐肉",
+      "desc": "肉质细腻，火锅必备",
+      "basePrice": 28,
+      "image": "https://example.com/hotpot9.jpg",
+      "isHot": false,
+      "specs": [
+        {
+          "name": "份量",
+          "options": [
+            { "name": "小份(8片)", "price": 0 },
+            { "name": "大份(16片)", "price": 8 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hp-010",
+      "name": "豆皮",
+      "desc": "豆香浓郁，口感筋道",
+      "basePrice": 18,
+      "image": "https://example.com/hotpot10.jpg",
+      "isHot": false,
+      "specs": [
+        {
+          "name": "份量",
+          "options": [
+            { "name": "小份", "price": 0 },
+            { "name": "大份", "price": 6 }
+          ]
+        }
+      ]
+    }
+  ]
+} 

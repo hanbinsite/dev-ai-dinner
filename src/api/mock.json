@@ -1,0 +1,382 @@
+{
+    "categories": [
+      {
+        "id": 1,
+        "name": "超值套餐",
+        "items": [
+          {
+            "id": 101,
+            "name": "经典双人套餐",
+            "basePrice": 59.9,
+            "desc": "含2个汉堡+2份小食+2杯饮料",
+            "image": "https://example.com/combo1.jpg",
+            "isHot": true,
+            "specs": [
+              {
+                "name": "主汉堡选择",
+                "options": [
+                  { "name": "香辣鸡腿堡", "price": 0 },
+                  { "name": "安格斯牛肉堡", "price": 8 },
+                  { "name": "深海鳕鱼堡", "price": 5 }
+                ]
+              },
+              {
+                "name": "饮料升级",
+                "options": [
+                  { "name": "标准杯可乐", "price": 0 },
+                  { "name": "大杯冰红茶", "price": 3 },
+                  { "name": "鲜榨橙汁", "price": 6 }
+                ]
+              },
+              {
+                "name": "小食选择",
+                "options": [
+                  { "name": "薯条", "price": 0 },
+                  { "name": "鸡块（5个）", "price": 5 },
+                  { "name": "蔬菜沙拉", "price": 4 }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 102,
+            "name": "家庭欢乐套餐",
+            "basePrice": 99.9,
+            "desc": "含4个汉堡+4份小食+4杯饮料",
+            "image": "https://example.com/combo2.jpg",
+            "specs": [
+              {
+                "name": "主汉堡选择",
+                "options": [
+                  { "name": "香辣鸡腿堡", "price": 0 },
+                  { "name": "安格斯牛肉堡", "price": 8 },
+                  { "name": "鳕鱼堡", "price": 5 }
+                ]
+              },
+              {
+                "name": "饮料升级",
+                "options": [
+                  { "name": "标准杯可乐", "price": 0 },
+                  { "name": "大杯柠檬茶", "price": 3 },
+                  { "name": "芒果冰沙", "price": 8 }
+                ]
+              },
+              {
+                "name": "儿童玩具",
+                "options": [
+                  { "name": "无玩具", "price": 0 },
+                  { "name": "卡通玩偶", "price": 10 },
+                  { "name": "积木套装", "price": 15 }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 103,
+            "name": "学生优惠套餐",
+            "basePrice": 39.9,
+            "desc": "含1个汉堡+1份小食+1杯饮料",
+            "image": "https://example.com/combo3.jpg",
+            "isHot": true,
+            "specs": [
+              {
+                "name": "汉堡选择",
+                "options": [
+                  { "name": "鸡腿堡", "price": 0 },
+                  { "name": "牛肉堡", "price": 5 },
+                  { "name": "素汉堡", "price": 0 }
+                ]
+              },
+              {
+                "name": "饮料选择",
+                "options": [
+                  { "name": "可乐", "price": 0 },
+                  { "name": "雪碧", "price": 0 },
+                  { "name": "冰红茶", "price": 0 }
+                ]
+              },
+              {
+                "name": "附加小吃",
+                "options": [
+                  { "name": "无附加", "price": 0 },
+                  { "name": "鸡翅（2个）", "price": 8 },
+                  { "name": "玉米杯", "price": 5 }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 104,
+            "name": "商务工作套餐",
+            "basePrice": 49.9,
+            "desc": "含1个汉堡+咖啡+沙拉",
+            "image": "https://example.com/combo4.jpg",
+            "specs": [
+              {
+                "name": "汉堡选择",
+                "options": [
+                  { "name": "牛肉堡", "price": 0 },
+                  { "name": "鸡肉堡", "price": 0 },
+                  { "name": "海鲜堡", "price": 5 }
+                ]
+              },
+              {
+                "name": "咖啡类型",
+                "options": [
+                  { "name": "美式", "price": 0 },
+                  { "name": "拿铁", "price": 3 },
+                  { "name": "卡布奇诺", "price": 5 }
+                ]
+              },
+              {
+                "name": "沙拉酱料",
+                "options": [
+                  { "name": "凯撒酱", "price": 0 },
+                  { "name": "千岛酱", "price": 0 },
+                  { "name": "油醋汁", "price": 0 }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 105,
+            "name": "深夜食堂套餐",
+            "basePrice": 69.9,
+            "desc": "含2个汉堡+2份小食+2杯啤酒",
+            "image": "https://example.com/combo5.jpg",
+            "specs": [
+              {
+                "name": "汉堡选择",
+                "options": [
+                  { "name": "辣味鸡腿堡", "price": 0 },
+                  { "name": "培根牛肉堡", "price": 8 },
+                  { "name": "芝士鳕鱼堡", "price": 6 }
+                ]
+              },
+              {
+                "name": "啤酒类型",
+                "options": [
+                  { "name": "普通啤酒", "price": 0 },
+                  { "name": "精酿啤酒", "price": 10 },
+                  { "name": "无酒精啤酒", "price": 5 }
+                ]
+              },
+              {
+                "name": "深夜特供",
+                "options": [
+                  { "name": "无附加", "price": 0 },
+                  { "name": "烤串拼盘", "price": 15 },
+                  { "name": "炸鸡桶", "price": 20 }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "经典汉堡",
+        "items": [
+          {
+            "id": 201,
+            "name": "双层芝士牛肉堡",
+            "basePrice": 39.9,
+            "desc": "200g安格斯牛肉饼，双重车达芝士",
+            "image": "https://example.com/burger1.jpg",
+            "isHot": true,
+            "specs": [
+              {
+                "name": "熟度选择",
+                "options": [
+                  { "name": "全熟", "price": 0 },
+                  { "name": "七分熟", "price": 0 }
+                ]
+              },
+              {
+                "name": "酱料添加",
+                "options": [
+                  { "name": "标准酱料", "price": 0 },
+                  { "name": "特调辣酱", "price": 1 },
+                  { "name": "蜂蜜芥末", "price": 1 }
+                ]
+              },
+              {
+                "name": "加料选择",
+                "options": [
+                  { "name": "不加料", "price": 0 },
+                  { "name": "煎蛋+2元", "price": 2 },
+                  { "name": "培根+4元", "price": 4 }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "人气小食",
+        "items": [
+          {
+            "id": 301,
+            "name": "黄金脆薯（大份）",
+            "basePrice": 15.9,
+            "desc": "现炸现做，外酥里嫩",
+            "image": "https://example.com/fries.jpg",
+            "specs": [
+              {
+                "name": "口味选择",
+                "options": [
+                  { "name": "原味", "price": 0 },
+                  { "name": "芝士风味", "price": 3 },
+                  { "name": "辣味", "price": 2 }
+                ]
+              },
+              {
+                "name": "蘸酱选择",
+                "options": [
+                  { "name": "番茄酱", "price": 0 },
+                  { "name": "甜辣酱", "price": 1 },
+                  { "name": "蜂蜜芥末", "price": 1 }
+                ]
+              },
+              {
+                "name": "份量选择",
+                "options": [
+                  { "name": "标准份", "price": 0 },
+                  { "name": "加大份", "price": 5 }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "饮品系列",
+        "items": [
+          {
+            "id": 401,
+            "name": "经典珍珠奶茶",
+            "basePrice": 16.9,
+            "desc": "手工熬制黑糖珍珠",
+            "image": "https://example.com/milk_tea.jpg",
+            "specs": [
+              {
+                "name": "甜度选择",
+                "options": [
+                  { "name": "标准糖", "price": 0 },
+                  { "name": "少糖", "price": 0 },
+                  { "name": "无糖", "price": 0 }
+                ]
+              },
+              {
+                "name": "温度选择",
+                "options": [
+                  { "name": "正常冰", "price": 0 },
+                  { "name": "少冰", "price": 0 },
+                  { "name": "热饮", "price": 0 }
+                ]
+              },
+              {
+                "name": "加料选择",
+                "options": [
+                  { "name": "不加料", "price": 0 },
+                  { "name": "珍珠+2元", "price": 2 },
+                  { "name": "布丁+3元", "price": 3 }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "早餐套餐",
+        "items": [
+          {
+            "id": 501,
+            "name": "元气早餐组合",
+            "basePrice": 22.9,
+            "desc": "含汉堡+热饮+薯饼",
+            "image": "https://example.com/breakfast.jpg",
+            "isHot": true,
+            "specs": [
+              {
+                "name": "主食选择",
+                "options": [
+                  { "name": "猪柳蛋堡", "price": 0 },
+                  { "name": "鸡肉蛋堡", "price": 2 }
+                ]
+              },
+              {
+                "name": "热饮选择",
+                "options": [
+                  { "name": "美式咖啡", "price": 0 },
+                  { "name": "热牛奶", "price": 0 },
+                  { "name": "热豆浆", "price": 0 }
+                ]
+              },
+              {
+                "name": "附加小食",
+                "options": [
+                  { "name": "不加小食", "price": 0 },
+                  { "name": "薯饼+3元", "price": 3 },
+                  { "name": "油条+2元", "price": 2 }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1",
+        "name": "川味凉菜",
+        "items": []
+      },
+      {
+        "id": "2",
+        "name": "特色小炒",
+        "items": []
+      },
+      {
+        "id": "3",
+        "name": "川味火锅",
+        "items": []
+      },
+      {
+        "id": "4",
+        "name": "经典川菜",
+        "items": []
+      },
+      {
+        "id": "5",
+        "name": "川味主食",
+        "items": []
+      },
+      {
+        "id": "6",
+        "name": "特色烧烤",
+        "items": []
+      },
+      {
+        "id": "7",
+        "name": "川味汤品",
+        "items": []
+      },
+      {
+        "id": "8",
+        "name": "特色盖饭",
+        "items": []
+      },
+      {
+        "id": "9",
+        "name": "川味小吃",
+        "items": []
+      },
+      {
+        "id": "10",
+        "name": "时令素菜",
+        "items": []
+      }
+    ]
+  }

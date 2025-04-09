@@ -1,0 +1,59 @@
+{
+  "id": "snacks",
+  "name": "川味小吃",
+  "items": [
+    {
+      "id": "sn-001",
+      "name": "红油抄手",
+      "desc": "皮薄馅多，红油香浓",
+      "basePrice": 18,
+      "image": "https://example.com/snacks1.jpg",
+      "isHot": true,
+      "specs": [
+        {
+          "name": "份量",
+          "options": [
+            { "name": "小份(8个)", "price": 0 },
+            { "name": "大份(12个)", "price": 6 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sn-002",
+      "name": "麻辣小面",
+      "desc": "面条劲道，麻辣鲜香",
+      "basePrice": 15,
+      "image": "https://example.com/snacks2.jpg",
+      "isHot": true,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "微辣", "price": 0 },
+            { "name": "中辣", "price": 0 },
+            { "name": "特辣", "price": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sn-003",
+      "name": "麻辣兔头",
+      "desc": "麻辣鲜香，肉质细嫩",
+      "basePrice": 25,
+      "image": "https://example.com/snacks3.jpg",
+      "isHot": true,
+      "specs": [
+        {
+          "name": "辣度",
+          "options": [
+            { "name": "微辣", "price": 0 },
+            { "name": "中辣", "price": 0 },
+            { "name": "特辣", "price": 0 }
+          ]
+        }
+      ]
+    }
+  ]
+} 

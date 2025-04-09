@@ -1,0 +1,74 @@
+{
+  "id": "1",
+  "name": "川味凉菜",
+  "items": [
+    {
+      "id": "1-1",
+      "name": "口水鸡",
+      "image": "https://images.unsplash.com/photo-1623689046286-01d442216df1",
+      "desc": "选用新鲜土鸡，配以特制辣油，香辣可口",
+      "basePrice": 28.00,
+      "isHot": true,
+      "specs": [
+        {
+          "name": "份量",
+          "options": [
+            {"name": "小份", "price": 0},
+            {"name": "中份", "price": 8},
+            {"name": "大份", "price": 16}
+          ]
+        },
+        {
+          "name": "口味",
+          "options": [
+            {"name": "微辣", "price": 0},
+            {"name": "中辣", "price": 0},
+            {"name": "特辣", "price": 0}
+          ]
+        },
+        {
+          "name": "配料",
+          "options": [
+            {"name": "常规", "price": 0},
+            {"name": "加花生", "price": 2},
+            {"name": "加香菜", "price": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1-2",
+      "name": "凉拌木耳",
+      "image": "https://images.unsplash.com/photo-1623689046286-01d442216df2",
+      "desc": "爽口木耳，清脆可口",
+      "basePrice": 16.00,
+      "isHot": false,
+      "specs": [
+        {
+          "name": "份量",
+          "options": [
+            {"name": "小份", "price": 0},
+            {"name": "中份", "price": 6},
+            {"name": "大份", "price": 12}
+          ]
+        },
+        {
+          "name": "口味",
+          "options": [
+            {"name": "微辣", "price": 0},
+            {"name": "中辣", "price": 0},
+            {"name": "不辣", "price": 0}
+          ]
+        },
+        {
+          "name": "配料",
+          "options": [
+            {"name": "常规", "price": 0},
+            {"name": "加蒜", "price": 1},
+            {"name": "加香菜", "price": 1}
+          ]
+        }
+      ]
+    }
+  ]
+} 
